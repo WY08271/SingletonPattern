@@ -10,12 +10,12 @@ public class SingletonTest {
             System.out.println("different");
         }
 
-//        Singleton2 s4=Singleton2.getInstance();
-//        Singleton2 s3=Singleton2.getInstance();
-//        if(s3==s4){
-//            System.out.println("s3��s4��ͬһ��ʵ��");
-//        }else{
-//            System.out.println("S3��s4����ͬһ��ʵ��");
-//        }
+        Singleton2 s4 = Singleton2.getInstance();
+        Singleton2 s3 = Singleton2.getInstance();
+        if (s3 == s4) {
+            System.out.println("same");
+        } else {
+            System.out.println("different");
+        }
     }
 }
